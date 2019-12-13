@@ -22,7 +22,7 @@ echo $this->Html->css('bootstrapform');
       <!-- <input type="text" id="username" class="fadeIn second" name="username" placeholder="username">
       <input type="text" id="password" class="fadeIn third" name="password" placeholder="password"> -->
 	  <?php echo $this->Form->input('username', ['class'=>'second']); ?>
-	  <?php echo $this->Form->input('password', ['class'=>'second', 'style' => 'background-color: #f6f6f6;
+	  <?php echo $this->Form->input('password', ['class'=>'second', 'style' => 'background-color: ##2a2e2f;
     border: none;
     color: #0d0d0d;
     padding: 15px 32px;
@@ -32,7 +32,7 @@ echo $this->Html->css('bootstrapform');
     font-size: 16px;
     margin: 5px;
     width: 85%;
-    border: 2px solid #f6f6f6;']); ?>
+    border: 2px solid ##2a2e2f;']); ?>
 
 	  <?php echo $this->Form->end(__('Login')); ?>
 </fieldset>

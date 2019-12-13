@@ -1,10 +1,10 @@
 <div id="page-container" class="row">
-
-	<div id="sidebar" class="col-sm-3">
+<h2><?php echo __('Users'); ?></h2>
+	<div id="sidebar" class="col-sm-3 well sidebar-nav">
 
 		<div class="actions">
 
-			<ul class="list-group">
+			<ul class="list-group nav nav-list">
 				<li class="list-group-item"><?php echo $this->Html->link(__('List Users'), array( 'action' => 'index'), array('class' => '')); ?></li>
 				<li class="list-group-item"><?php echo $this->Html->link(__('New User'), array( 'action' => 'AddUser'), array('class' => '')); ?></li>
 				<li class="list-group-item"><?php echo $this->Html->link(__('List Tasks'), array( 'controller'=>'tasks','action' => 'index'), array('class' => '')); ?></li>
@@ -19,7 +19,7 @@
 
 		<div class="users index">
 
-			<h2><?php echo __('Users'); ?></h2>
+			
 
 			<div class="table-responsive">
 				<table cellpadding="0" cellspacing="0" class="table table-striped table-bordered">

@@ -19,7 +19,7 @@
 
 <div id="page-container" class="row">
 
-	<div id="sidebar" class="col-sm-3">
+	<div id="sidebar" class="col-sm-3 well sidebar-nav">
 		
 		<div class="actions">
 		

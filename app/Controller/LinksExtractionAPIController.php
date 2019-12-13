@@ -27,17 +27,9 @@ class LinksExtractionAPIController extends AppController
 
     public function extractAllLinksFromUrl()
     {
-        // if(!$this->Auth->user()) {
-        // if ($this->RequestHandler->isAjax()) {
+        
         $this->autoRender = false;
-        // if ($this->request->is('post')) {
-
-        //get data from request object
-        // $data = $this->request->input('json_decode', true);
-
-        // if (empty($data)) {
-        //     $data = $this->request->data;
-        // }
+     
         $url = $this->params['url']['url'];
         //    var_dump($url);
         $arrContextOptions = array(
@@ -94,7 +86,7 @@ class LinksExtractionAPIController extends AppController
         $name = $this->htmltopdf($printData);
 
         $this->sendPDFtoEmail();
-        // // $this->response->body("123");
+        
         $this->response->file("/webroot/$name", array(
             'download' => true,
             'name' => $url,

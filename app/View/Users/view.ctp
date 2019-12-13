@@ -1,10 +1,10 @@
 <div id="page-container" class="row">
 
-	<div id="sidebar" class="col-sm-3">
+	<div id="sidebar" class="col-sm-3 well sidebar-nav">
 
 		<div class="actions">
 
-			<ul class="list-group">
+			<ul class="list-group nav nav-list">
 				<li class="list-group-item"><?php echo $this->Form->postLink(__('Delete User'), array('action' => 'delete', $user['User']['id']), array('class' => ''), __('Are you sure you want to delete # %s?', $user['User']['id'])); ?> </li>
 				<li class="list-group-item"><?php echo $this->Html->link(__('List Users'), array('action' => 'index'), array('class' => '')); ?> </li>
 				<li class="list-group-item"><?php echo $this->Html->link(__('List Tasks'), array('controller' => 'tasks', 'action' => 'index'), array('class' => '')); ?> </li>

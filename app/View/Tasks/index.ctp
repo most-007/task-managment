@@ -1,9 +1,10 @@
-<h1>Task Index</h1>
-<div id="sidebar" class="col-sm-3">
+<!-- <h1>Task Index</h1> -->
+<h2><?php echo __('Tasks'); ?></h2>
+<div id="sidebar" class="col-sm-3 well sidebar-nav">
 
 <div class="actions">
 
-    <ul class="list-group">
+    <ul class="list-group nav nav-list">
     <?php if (AuthComponent::user('type') == 'admin'): ?>
     <li class="list-group-item"><?php echo $this->Html->link(__('List Users'), array( 'controller'=>'users','action' => 'index'), array('class' => '')); ?></li>
     <li class="list-group-item"><?php echo $this->Html->link(__('New User'), array( 'controller'=>'users','action' => 'AddUser'), array('class' => '')); ?></li>
@@ -21,7 +22,7 @@
 
 <div class="users index">
 
-    <h2><?php echo __('Tasks'); ?></h2>
+    
 
     <div class="table-responsive">
         <table cellpadding="0" cellspacing="0" class="table table-striped table-bordered">

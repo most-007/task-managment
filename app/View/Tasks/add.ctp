@@ -1,15 +1,15 @@
 <!-- <h1> Add Task</h1> -->
-<div id="sidebar" class="col-sm-3">
+<div id="sidebar" class="col-sm-3 well sidebar-nav">
 	<div class="actions">
 
-		<ul class="list-group">
+		<ul class="list-group nav nav-list">
 			<li class="list-group-item"><?php echo $this->Html->link(__('List Tasks'), array('action' => 'index'), array('class' => '')); ?></li>
 
 		</ul><!-- /.list-group -->
 
 	</div><!-- /.actions -->
 </div>
-<div id="sidebar" class="col-sm-9">
+<div id="sidebar" class="col-sm-9 ">
 	
 
 	

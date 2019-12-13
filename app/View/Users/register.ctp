@@ -39,7 +39,7 @@
 	border: 2px solid #f6f6f6;']);
 
       echo $this->Form->input('Admin', array(
-        'type' => 'checkbox',
+        'type' => 'checkbox','valy'
 
       ));
 

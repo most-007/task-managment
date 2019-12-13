@@ -1,4 +1,6 @@
-<div style="text-align:center;">
+
+<div style="text-align:left;">
+
 	<h3> Add User</h3>
 </div>
 
@@ -16,7 +18,8 @@
 			<div class="form-group">
 				<input type="text" name="User[username]" id="username" class="form-control input-sm" placeholder="username">
 			</div>
-		</div>
+		</div></div>
+		<div class="row">
 		<div class="col-xs-6 col-sm-6 col-md-6">
 			<div class="form-group">
 				<input type="email" name="User[email]" id="email" class="form-control input-sm" placeholder="Email Address">
@@ -40,6 +43,6 @@
 			    				</div> -->
 	</div>
 
-	<input type="submit" value="Register" class="btn btn-info btn-block">
+	<input type="submit" value="Register" class="btn btn-info">
 
 </form>

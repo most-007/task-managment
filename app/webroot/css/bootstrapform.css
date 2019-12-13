@@ -1,7 +1,7 @@
 /* BASIC */
 
 html {
-	background-color: #56baed;
+	/* background-color: #56baed; */
 }
 
 body {
@@ -10,10 +10,13 @@ body {
 }
 
 a {
-	color: #92badd;
+	color: #2a2e2f;
 	display: inline-block;
 	text-decoration: none;
 	font-weight: 400;
+}
+label,h1{
+	color: #cccccc;
 }
 
 h2 {
@@ -41,7 +44,7 @@ h2 {
 #formContent {
 	-webkit-border-radius: 10px 10px 10px 10px;
 	border-radius: 10px 10px 10px 10px;
-	background: #fff;
+	background: rgb(27, 26, 26);
 	padding: 30px;
 	width: 90%;
 	max-width: 450px;
@@ -75,7 +78,7 @@ h2.active {
 /* FORM TYPOGRAPHY*/
 
 input[type=button], input[type=submit], input[type=reset] {
-	background-color: #56baed;
+	background-color: #2a2e2f;
 	border: none;
 	color: white;
 	padding: 15px 80px;
@@ -97,7 +100,7 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
-	background-color: #39ace7;
+	background-color: #2a2e2f;
 }
 
 input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
@@ -131,7 +134,7 @@ input[type=text] {
 
 input[type=text]:focus {
 	background-color: #fff;
-	border-bottom: 2px solid #5fbae9;
+	border-bottom: 2px solid #2a2e2f;
 }
 
 input[type=text]:placeholder {
@@ -251,7 +254,7 @@ input[type=text]:placeholder {
 	bottom: -10px;
 	width: 0;
 	height: 2px;
-	background-color: #56baed;
+	background-color: #2a2e2f;
 	content: "";
 	transition: width 0.2s;
 }
